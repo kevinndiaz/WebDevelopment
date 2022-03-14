@@ -1,0 +1,39 @@
+/* Add your CSS style definitions to this file */
+body{
+    margin-top: 0em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0em;
+}
+h1{
+    text-align: center;
+    color: #9f2042;
+    font-family:'Roboto Slab', 'Open Sans';
+}
+
+#details{
+    text-align: center;
+    color:#a9a9ba;
+}
+
+p{
+    padding: 1em;
+    
+}
+
+blockquote{
+    text-align: center;
+    margin: 10px 50px 20px;
+    padding: 50px;
+    width:400px;
+    border: 10px solid #ececec;
+    border-width: large;
+}
+
+footer{
+    background-color: #29293a;
+}
+
+footer p{
+    color: white;
+}

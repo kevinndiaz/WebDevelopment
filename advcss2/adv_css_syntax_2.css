@@ -1,0 +1,23 @@
+p {
+	margin: 0.9em 0em;
+}
+
+.multicolumns{
+	/* setting the number of columns to 3 */
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	-o-column-count: 3;
+	column-count: 3;
+
+	/* setting the space between columns to 30px */
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	-o-column-gap: 30px;
+	column-gap: 30px;
+
+	/* adding a 1px black line between each column */
+	-webkit-column-rule: 1px outset black;
+	-moz-column-rule: 1px outset black;
+	-o-column-rule: 1px outset black;
+	column-rule: 1px outset black;
+}
