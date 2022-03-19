@@ -7,8 +7,9 @@ function calculateTotal(quantity, price){
 function outputCartRow(item, total){
     document.write(
         "<tr class='totals'>\n" +
-        "<td colspan='4' class='focus'>" + item + "</td>" +
-        "<td class='focus'>$" + total + "</td>"
+        "<td colspan='4' class='focus'>" + item + "</td>\n" +
+        "<td class='focus'>$" + total + "</td>\n" +
+        "</tr>\n"
         
         );
 }
