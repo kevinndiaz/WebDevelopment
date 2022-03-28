@@ -39,9 +39,3 @@ function outputReceipt(){
         "</tr>\n"
     );
 }
-
-
-
-
-
-        
